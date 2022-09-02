@@ -1,0 +1,24 @@
+{
+    "cards": [
+    {
+    "q": "Tony Hawk is a ___ ",
+    "a": "Skateboarder"        
+    },
+    {
+    "q": "Shaun White is a ___",
+    "a": "Snowboarder"
+    },
+    {
+    "q": "Wayne Gretzsky plays ___",
+    "a": "Hockey"
+    },
+    {
+    "q": "Tom Brady plays ___",
+    "a": "Football"
+    },
+    {
+    "q": "David Beckham plays ___",
+    "a": "Soccer"
+    }
+    ]
+}

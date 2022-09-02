@@ -1,0 +1,56 @@
+{
+    "cards": [
+    {
+    "q": "Human",
+    "a": "Alliance"        
+    },
+    {
+    "q": "Dwarf",
+    "a": "Alliance"
+    },
+    {
+    "q": "Night Elf",
+    "a": "Alliance"
+    },
+    {
+    "q": "Gnome",
+    "a": "Alliance"
+    },
+    {
+    "q": "Draenei",
+    "a": "Alliance"
+    },
+    {
+    "q": "Worgen",
+    "a": "Alliance"        
+     },
+    {
+    "q": "Pandaren",
+    "a": "Both"
+     },
+     {
+     "q": "Orc",
+     "a": "Horde"        
+     },
+     {
+     "q": "Undead",
+     "a": "Horde"
+     },
+     {
+     "q": "Tauren",
+     "a": "Horde"
+     },
+     {
+     "q": "Troll",
+     "a": "Horde"
+     },
+     {
+     "q": "Blood Elf",
+     "a": "Horde"
+     },
+     {
+    "q": "Goblin",
+    "a": "Horde"        
+     }
+    ]
+}

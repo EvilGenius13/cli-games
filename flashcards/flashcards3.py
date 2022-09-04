@@ -11,7 +11,7 @@ while (game_state):
     print("Please input which deck you would like to use?")
     print("Input : warcraft, athletes, or capitals")
     input_deck = input()
-
+# made decks by using variables and your input is placed into the load json statement
     warcraft = 'warcraft.json'
     capitals = 'me-capitals.json'
     athletes = 'athletes.json'
@@ -31,7 +31,7 @@ while (game_state):
     # score by total
     total = len(data["cards"])
     score = 0
-
+    # The current guess statement you gave + score keeping
     for i in data ["cards"]:
         guess = input (i["q"] + " > ")
         
@@ -41,7 +41,7 @@ while (game_state):
         else:
             print(f"Incorrect! The correct answer was", i["a"])
             print(f"Current score: {score}/{total}")
-    
+    # Scoring if statement for how well you did
     total_half = total / 2
     if score == total:
         print("Amazing")
@@ -49,7 +49,7 @@ while (game_state):
         print("Good Work")
     elif score < total_half:
         print("You could use some practice")
-    
+    # loop or break statement that will print your score and ask to play again
     print(f'Your Final Score is {score} out of {total}')
     if (input(f'Would you like to play again? yes or no :') == 'yes'):
         print("Another round coming up!")
